@@ -1,1 +1,2 @@
-https://emekon.github.io/rsschool-cv/cv
+https://emekon.github.io/rsschool-cv/
+ 
