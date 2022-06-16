@@ -1,0 +1,59 @@
+:root{
+    --primery-color: #2f80ed;
+    --secondary-color: #333333
+}
+ 
+
+
+html {
+    font-family: Roboto, sans-serif;
+}
+*{
+    color: var(--secondary-color);
+}
+
+h1{
+    color: var(--primery-color);
+    margin-bottom: 0.25em
+}
+h2{
+    color: var(--secondary-color);
+    font-size: 1em;
+    margin-bottom: 1em;
+    margin-top: 0em;
+}
+
+a {
+    color: var(--primery-color);
+    }
+    .contacts {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 2px;
+        }
+
+/* <style>
+* {
+    box-sizing: border-box;
+  }
+
+  
+body {display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+    
+  /* border: 1px solid red */
+
+  /* .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+</style> */ 
