@@ -3,6 +3,14 @@
     --secondary-color: #052452; 
 }
  
+.imges {
+    
+    float: left;
+        }
+         
+
+        
+
 
 
 html {
@@ -40,12 +48,6 @@ a {
 .experience {
     color: var(--secondary-color);
 }
-/* h3{
-    color: var(--secondary-color);
-    font-size: 1em;
-    margin-bottom: 1em;
-    margin-top: 2em;
-    } */
     .code{
         margin-top: 2em;
     }
@@ -54,11 +56,12 @@ a {
     color: var(--secondary-color)
 }
 .code_example {
+    border: 2px solid red;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     margin-bottom: 0.5em;
-    margin-right: 3em;
+    margin-left: 0em;
     
 }
 pre {
@@ -74,24 +77,6 @@ pre {
     margin-right: 1em;
     font-weight: bold;
 }
-
-
-/* <style>
-* {
-    box-sizing: border-box;
-  }
-
-  
-body {display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-      }
-
-    
-  /* border: 1px solid red */
-
-  /* .container {
-    max-width: 1440px;
-    margin: 0 auto;
-  }
-</style> */ 
+.univercity {
+    font-style: italic;
+}
